@@ -47,6 +47,10 @@ export class PositiveArray {
     return this._values
   }
 
+  /** 
+  *Retorna o tamanho da array
+  */
+  
   get length() {
     return this._values.length
   }
